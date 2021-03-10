@@ -60,10 +60,37 @@ blockquote, q {
     .maintext{
         background-color:#DDB9A3;
         color: white;
-        margin: 0 auto;
+        text-align: center;
+        padding:20px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .maintext p{
+        padding:10px;
+        
+    }
+    .fire{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 20%;
+        height: auto;
+    }
+    .rv{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 20%;
+        height: auto;
+
     }
     h1{
         font-family: 'Chelsea Market', cursive;
+        font-size: 5rem;
+    }
+    h2{
+        font-size: 2rem;
+        margin: 2%;
     }
     nav{
         padding:2% 0;
@@ -112,8 +139,8 @@ blockquote, q {
     }
     .image img{
         border-radius: 50%;
-        width: 70%;
-        margin-left: 10%;
+        width: 60%;
+        margin-left: 20%;
     }
     .text div{
         width: 80%;
