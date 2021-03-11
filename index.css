@@ -1,0 +1,171 @@
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	/* font-size: 100%; */
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+    *{
+        box-sizing: border-box;
+        /* border: 1px solid grey; */
+        max-width: 100%;
+    }
+
+    /* General Styles */
+    /* @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap'); */
+
+    html{
+        font-size: 62.5%;
+    }
+    body{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        font-family: 'Roboto Mono', monospace;
+    }
+    .maintext{
+        background-color:#DDB9A3;
+        color: white;
+        text-align: center;
+        padding:20px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .maintext p{
+        padding:10px;
+        
+    }
+    .fire{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 20%;
+        height: auto;
+    }
+    .rv{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 20%;
+        height: auto;
+
+    }
+    .icontext p{
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+        /* background-color: pink; */
+        padding: 10%
+    }
+    h1{
+        font-family: 'Chelsea Market', cursive;
+        font-size: 5rem;
+    }
+    h2{
+        font-size: 2rem;
+        margin: 2%;
+    }
+    nav{
+        padding:2% 0;
+    }
+    nav a{
+        display: inline-block;
+        padding: 1% 0;
+        width:10%;
+        border-radius: 10px;
+        text-align: center;
+        color: white;
+    }
+
+    .orange{
+        background-color: #FF764E;
+        margin-left: 10%;
+    }
+    .blue{
+        background-color:#5ED3EB;
+        margin: 0 20%
+    }
+
+    .yellow{
+        background-color:#FFCD69;
+        margin-right: 10%;
+    }
+
+    /* CTA Section */
+    .cta{
+        position: relative;
+    }
+    .text{
+        position:absolute;
+        top: 25%;
+    }
+    .image, .text{
+        display:inline-block;
+
+    }
+    .image{
+        width: 40%;
+    }
+    .text{
+        width:55%;
+
+    }
+    .image img{
+        border-radius: 50%;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .text div{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* Background image */
+
+    .bg-img{
+        background-image: url('assets/footer_img.jpg');
+        height: 40vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+    }
+    footer{
+        color: #F9E7DC;
+    }
